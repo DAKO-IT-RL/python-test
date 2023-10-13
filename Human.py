@@ -21,7 +21,3 @@ class Human:
   def predict_lifespan(self):
     lifespan = random.randint(self.__get_age()+1, 100)
     return f"{self.age} - {lifespan}"
-
-
-human_1 = Human('Peter', 34, 179.34)
-print(human_1.predict_lifespan())
